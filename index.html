@@ -1,0 +1,164 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>My Portfolio</title>
+</head>
+<body>
+    <!-- HEADER SECTION -->
+    <header class="header">
+        <a href="#home" class="logo">My Portfolio</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#Projects">Projects</a>
+            <a href="#Experience">Experience</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+   <!-- Home Section -->
+<section id="home" class="home">
+    <div class="home-img">
+        <img src="assets/profile.jpg" alt="Sai Shivani Nagelli's Profile Image">
+    </div>
+    <div class="home-content">
+        <h3>Hello, I'm</h3>
+        <h1>Sai Shivani Nagelli</h1>
+        <h3>And I'm a <span class="multiple-text"></span></h3>
+        
+        <div class="social-media">
+            <a href="https://www.linkedin.com/in/sai-shivani-nagelli-bb1566248/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/shivaninagelli88" target="_blank"><i class='bx bxl-github'></i></a>
+            <a href="https://www.facebook.com/yourprofile" target="_blank"><i class='bx bxl-facebook'></i></a>
+        </div>
+        <a href="https://drive.google.com/file/d/1shIzri9ir1ssx1MgaDpxz46hEW8uRQeo/view?usp=drive_link" class="btn" download>Download CV</a>
+    </div>
+</section>
+
+        
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span> </h2>
+            <h3>I'm a <span>Frontend Developer</span></h3>
+            <p>Hello! I’m Sai Shivani Nagelli, a final-year Electronics and Communication Engineering student passionate about software engineering and AI. I have experience in programming (Python, C++, SQL), web development, and data analysis, and have worked on projects like radar design and AI-based apps. I've interned in roles ranging from Salesforce administration to creative design at startups like Centle. I'm eager to apply my skills to real-world problems and grow in the AI and tech fields.</p>
+            <a href="#" class="btn">Read more</a>
+        </div>
+        <div class="about-img">
+            <img src="assets/about.jpg" alt="">
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="Projects" class="Projects">
+        <h2 class="heading">My <span>Projects</span> </h2>
+
+        <div class="Projects-container">
+            <div class="Projects-box">
+                <i class='bx bx-code'></i>
+                <h3>PGLIFE Website</h3>
+                <p>PGLIFE helps students find their perfect home with ease. Explore our verified listings for safe and comfortable accommodations. Join us to access resources tailored for student renters!.</p>
+                <a href="https://github.com/shivaninagelli88/Pglife" class="btn">Read More</a>
+            </div>
+
+            <div class="Projects-box">
+                <i class='bx bx-palette' ></i>
+                <h3>Radar Design</h3>
+                <p>This project focuses on designing a radar system using Arduino Uno to enhance object detection capabilities. The radar utilizes signal processing techniques to accurately track and visualize moving objects in real-time</p>
+                <a href="https://github.com/shivaninagelli88/Design-of-radar-using-Arduino-uno" class="btn">Read More</a>
+            </div>
+
+            <div class="Projects-box">
+                <i class='bx bxl-android' ></i>
+                <h3>AI Text Summarizer-API</h3>
+                <p>The application leverages natural language processing techniques to generate concise summaries of lengthy texts, improving information accessibility. Key features include customizable summary lengths and support for various text formats</p>
+                <a href="https://github.com/shivaninagelli88/text_summarizerapp" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!--Experience Section -->
+
+    <!-- Experience Section -->
+    <section id="Experience" class="Experience">
+        <div class="Experience-box">
+            <h2 class="heading">Experience</h2>
+
+            <div class="wrapper">
+                <div class="Experience-item">
+                    <img src="assets/01.jpeg" alt="">
+                    <h2>Web developer</h2>
+                   
+                    <p>Assisted in developing full-stack applications using HTML, CSS, and JavaScript. Collaborated with a team to optimize user interfaces and enhance overall user experience</p>
+                    <a href="#" class="btn">Read More</a>
+               </div>
+
+                <div class="Experience-item">
+                    <img src="assets/02.jpeg" alt="">
+                    <h2>Salesforce Admin Internship</h2>
+                   
+                    <p>Completed various Salesforce Trailhead modules, focusing on organizational setup, process automation</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+
+                <div class="Experience-item">
+                    <img src="assets/03.jpeg" alt="">
+                    <h2>Cloud virtual Internship</h2>
+
+                    <p>Applied AWS skills to create and manage a static website, gaining practical experience in cloud technologies and web hosting solutions</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    
+    
+
+    <!-- Contact Section -->
+
+    <section id="contact" class="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" name="name" placeholder="Full Name">
+                <input type="email" name="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" name="number" placeholder="Phone Number">
+                <input type="text" name="subject" placeholder="Email Subject">
+            </div>
+
+            <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+
+    <footer class="footer">
+        <div class="social">
+            <a href="#"><i class='bx bxl-linkedin'></i></a>
+                <a href="#"><i class='bx bxl-github' ></i></a>
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-instagram' ></i></a>
+        </div>
+
+        <p class="copyright">
+            © sai shivani Nagelli - All Rights Reserved
+        </p>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
